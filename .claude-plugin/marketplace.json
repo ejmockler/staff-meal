@@ -1,7 +1,16 @@
 {
   "name": "staff-meal",
-  "owner": { "name": "ejmockler" },
+  "owner": {
+    "name": "ejmockler"
+  },
+  "metadata": {
+    "description": "Food-ordering skills that get you the version of a dish the cooks would eat."
+  },
   "plugins": [
-    { "name": "staff-meal", "source": "./", "description": "Your agent orders what the cooks eat. Yes, including home spicy." }
+    {
+      "name": "staff-meal",
+      "source": "./",
+      "description": "Your agent orders what the cooks eat. Yes, including home spicy."
+    }
   ]
 }
