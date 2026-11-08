@@ -23,7 +23,7 @@ This skill exists because one Tokyo Indian order took 9 corrections to converge.
 
 ### 0. Setup
 - Check memory for the user's saved taste briefs, addresses, platform, and past orders/misses. Reuse them.
-- **Execution is an agent driving the user's own logged-in browser**, with whatever browser tool is available (Claude in Chrome, the built-in browser, Playwright). There are no platform adapters. Follow `kitchen-scout/platforms/_browser.md` for the loop, robustness rules, untrusted page content and spend guards. Open a new tab and decline non-essential cookies.
+- **Execution is an agent driving the user's own logged-in browser**, with whatever browser tool is available (e.g. Claude in Chrome, a built-in browser pane, or a Playwright MCP server). There are no platform adapters. Follow `kitchen-scout/platforms/_browser.md` for the loop, robustness rules, untrusted page content and spend guards. Open a new tab and decline non-essential cookies.
 
 ### 1. Brief → `taste-brief`
 Produce the Taste Brief in ONE question batch (≤4 questions). Don't start searching until the tradition, the anchor dishes plus their home versions, the heat anchor and the headcount are known or explicitly inferred.

@@ -17,7 +17,7 @@ Output: a Taste Brief (schema below), written to the conversation. `staff-meal` 
 | **Explorer** | "authentic", "how locals eat it", "I want to try real X" — often an American | Pick ONE regional tradition and commit; deliver the dish as its home audience eats it, with heat calibrated to what this eater can actually enjoy. |
 | **Craving** | "something spicy", "comfort food", "I don't know, surprise me" | Map the craving to 2–3 candidate cuisines/dishes, then proceed as Explorer. |
 
-## Step 2 — Elicit in ONE batch (max 4 questions, one AskUserQuestion call)
+## Step 2 — Elicit in ONE batch (max 4 questions in one message; use the client's multiple-choice question tool if it has one)
 
 Only ask what you can't infer. Priority order:
 

@@ -1,6 +1,6 @@
 # Driving any delivery app in a browser
 
-There are no adapters. The agent drives the user's own logged-in browser tab (Claude in Chrome, the built-in browser, Playwright), and the visible page is the source of truth. Platform files (`<app>.md`) are optional **field notes**: quirks and shortcuts that someone found on a real run. If a file is missing or out of date, this playbook still works.
+There are no adapters. The agent drives the user's own logged-in browser tab (e.g. Claude in Chrome, a built-in browser pane, or a Playwright MCP server), and the visible page is the source of truth. Platform files (`<app>.md`) are optional **field notes**: quirks and shortcuts that someone found on a real run. If a file is missing or out of date, this playbook still works.
 
 ## Loop (any app)
 1. **Address first.** Set or confirm the delivery address in the UI, then read it back to the user once. Every filter below depends on it.
