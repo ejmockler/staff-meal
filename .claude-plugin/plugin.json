@@ -1,0 +1,8 @@
+{
+  "name": "staff-meal",
+  "version": "0.1.0",
+  "description": "Your agent orders what the cooks eat, including home spicy: delivery food the way the cuisine's home audience eats it, with kitchen notes in the cook's language.",
+  "author": { "name": "ejmockler" },
+  "repository": "https://github.com/ejmockler/staff-meal",
+  "keywords": ["food", "delivery", "ordering", "cuisine", "skills"]
+}

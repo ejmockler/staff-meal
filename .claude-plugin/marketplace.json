@@ -1,0 +1,7 @@
+{
+  "name": "staff-meal",
+  "owner": { "name": "ejmockler" },
+  "plugins": [
+    { "name": "staff-meal", "source": "./", "description": "Your agent orders what the cooks eat. Yes, including home spicy." }
+  ]
+}
